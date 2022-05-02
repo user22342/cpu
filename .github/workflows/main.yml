@@ -21,8 +21,6 @@ jobs:
     runs-on: ubuntu-latest
 strategy:
  fail-fast: false
-  matrix:
-   runner[1,2,3]
-    steps:
-  run: |
-          echo venu
+ matrix:
+   runner: [1,2,3]
+  
